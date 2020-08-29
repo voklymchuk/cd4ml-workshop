@@ -9,5 +9,5 @@ echo "Setting up git..."
 export
 git config --global user.name "$NAME"
 git config --global user.email "$EMAIL"
-git remote set-url origin https://$GITHUB_USER:29dfecc9ed632cb6bfd62c3dc244f36dbcca3dbb@github.com/$GITHUB_USER/cd4ml-workshop
+git remote set-url origin https://$GITHUB_USER:$GITHUB_TOKEN@github.com/$GITHUB_USER/cd4ml-workshop
 git pull --rebase
